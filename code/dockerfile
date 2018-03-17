@@ -1,0 +1,4 @@
+FROM alpine/git
+
+VOLUME [ "/git" ]
+ENTRYPOINT [ "git", "clone", "https://github.com/Audi-1/sqli-labs.git"]
