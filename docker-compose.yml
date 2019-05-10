@@ -18,7 +18,7 @@ services:
     volumes:
       - ./code:/git
   db:
-    image: mysql
+    image: mysql:5.7
     expose:
       - "3306"
     ports:
